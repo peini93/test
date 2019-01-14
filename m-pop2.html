@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LETOU乐投-娱乐天天有,因为有乐投</title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="styles/li-scroller.css" rel="stylesheet" type="text/css" />
+<link href="styles/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script>
+<script type="text/javascript" src="js/mine.js"></script>
+<script src="js/Chart.js"></script>
+</head>
+<body>
+<!--錯誤訊息提示-->
+
+<div class="LightBox">
+  <div class="LightBoxMainTranscation w1000">
+    <div class="Xbox"><div class="X"></div></div>
+<div>
+  <div class="TransactionBg Wp0">
+      <div class="TransactionMain">
+          <div class="MemberTitle"><p>交易纪录</p></div>
+            <div class="Moneyoverage FloatRight" style="margin-top:-45px;">可用餘額<span>100,000,000.00</span> 元</div>
+          <div class="line">
+              <div class="timed MarginLeft40">
+                  <div class="MarginBottom3">
+                      <label>时间:</label>
+                      <!--  <select name="select">
+                  <option>2222</option>
+                  <option>8888888</option>
+                  <option>8444888</option>
+                  </select>
+                -->
+                      <input type="text" value="2016.11.26">─<input type="text" value="2016.11.30">
+                      <p>今天</p><span>│</span>
+                  </div>
+              </div>
+              <div class="timed MarginLeft10">
+                  <ul>最近：
+                      <li class="Active">48小时</li>
+                      <li>1周 </li>
+                      <li>1个月</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="line2">
+              <div class="timed MarginLeft40">
+                  <ul> 分类：
+                      <li>存款</li>
+                      <li>提款</li>
+                      <li>输赢</li>
+                      <li>未结算</li>
+                      <li>佣金发放</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <div class="TransLlstMain">
+      <div class="TableStyle2">
+          <table width="100%">
+              <tr>
+                  <th class="img">分类</th>
+                  <th class="date">创建时间</th>
+                  <th class="centers">名称 | 馆别 | 交易号</th>
+                  <th class="money">金额</th>
+                  <th class="moneylist">
+                      <p>明细</p>
+                  </th>
+                  <th class="situation">状态</th>
+              </tr>
+              <tr>
+                  <td class="img">
+                      <p class="tranicon"><img src="styles/images/tran-icon1.png" alt=""></p>
+                  </td>
+                  <td class="date">
+                      <p class="listtitle">2016-11-23</p>
+                      <p class="listtext"> 19:50</p>
+                  </td>
+                  <td class="centers">
+                      <p class="listtitle">主帐户 存款 ( 在线支付 )</p>
+                      <p class="listtext">流水号 D16112</p>
+                  </td>
+                  <td class="money">200000000</td>
+                  <td class="moneylist"><img src="styles/images/tranlist.png" alt=""></td>
+                  <td class="situation">等待入帐</td>
+              </tr>
+              <tr>
+                  <td class="img">
+                      <p class="tranicon"><img src="styles/images/tran-icon2.png" alt=""></p>
+                  </td>
+                  <td class="date">
+                      <p class="listtitle">2016-11-23</p>
+                      <p class="listtext"> 19:50</p>
+                  </td>
+                  <td class="centers">
+                      <p class="listtitle">转出 沙巴体育</p>
+                      <p class="listtext">流水号 D1611280302101007043</p>
+                  </td>
+                  <td class="money">330000</td>
+                  <td class="moneylist"><img src="styles/images/tranlist.png" alt=""></td>
+                  <td class="situation">成功</td>
+              </tr>
+              <tr>
+                  <td class="img">
+                      <p class="tranicon"><img src="styles/images/tran-icon3.png" alt=""></p>
+                  </td>
+                  <td class="date">
+                      <p class="listtitle">2016-11-23</p>
+                      <p class="listtext"> 19:50</p>
+                  </td>
+                  <td class="centers">
+                      <p class="listtitle">转出 体育</p>
+                      <p class="listtext">流水号 D1611280302101007043</p>
+                  </td>
+                  <td class="money">400 </td>
+                  <td class="moneylist"><img src="styles/images/tranlist.png" alt=""></td>
+                  <td class="situation">成功</td>
+              </tr>
+              <tr>
+                  <td class="img">
+                      <div class="tranicon"><img src="styles/images/tran-icon4.png" alt=""></div>
+                  </td>
+                  <td class="date">
+                      <p class="listtitle">2016-11-23</p>
+                      <p class="listtext"> 19:50</p>
+                  </td>
+                  <td class="centers">
+                      <p class="listtitle">投注 SSC</p>
+                      <p class="listtext">流水号 D1611280302101007043</p>
+                  </td>
+                  <td class="money">10000000 </td>
+                  <td class="moneylist"><img src="styles/images/tranlist.png" alt=""></td>
+                  <td class="situation">成功</td>
+              </tr>
+          </table>
+      </div>
+
+      <div class="showbox">
+          <div class="nav-wrapper">
+              <div class="nav">
+                  <div class="nav-item" id="J-nav-trigger">
+                      <a href="javascript:;" class="nav-item__link">
+                统计查询结果
+              </a>
+                  </div>
+                  <div class="nav-item">
+                      <a href="" class="nav-item__link">
+                下载查询结果
+              </a>
+                  </div>
+              </div>
+              <div class="nav-main" id="J-nav-content">
+                  已转出20笔共100.00元 | 已转入3笔500.00元 单一钱包输/赢10笔共35,000.00元 未结算3笔共180.00元
+              </div>
+          </div>
+      </div>
+
+      <div class="Page">
+          <div class="PagePre"></div>
+          <ul>
+              <li class="Active">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li class="drop">...</li>
+              <li>108</li>
+          </ul>
+          <div class="PageInput"> 前往 <input type="number" />頁</div>
+          <div class="PageInput PageBtn">確認</div>
+          <div class="PageNext"></div>
+      </div>
+  </div>
+  </div>
+
+
+</div>
+
+  </div>
+  <div class="LightBoxBg"></div>
+</div>
+
+</body>
+</html>

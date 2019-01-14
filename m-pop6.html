@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LETOU乐投-娱乐天天有,因为有乐投</title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="styles/li-scroller.css" rel="stylesheet" type="text/css" />
+<link href="styles/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script>
+<script type="text/javascript" src="js/mine.js"></script>
+<script src="js/Chart.js"></script>
+</head>
+<body>
+<!--錯誤訊息提示-->
+
+<div class="LightBox">
+  <div class="LightBoxMainTranscation">
+    <div class="Xbox"><div class="X"></div></div>
+<div>
+  <div class="lRMain">
+       <h2>下线明细</h2>
+       <div class="TableStyle4">
+         <table>
+            <tr>
+                <td class="Title">层级</td>
+                <td class="Title">人数统计</td>
+                <td class="Title">累计存款额</td>
+                <td class="Title">累计提款额</td>
+                <td class="Title">领取红利额</td>
+                <td class="Title">客户调帐额</td>
+                <td class="Title">总输赢</td>
+            </tr>
+            <tr>
+              <td><p>首层</p></td>
+              <td>57</td>
+              <td>7,570<br></td>
+              <td>220</td>
+              <td>12,704</td>
+              <td>0</td>
+              <td>-1,680.52</td>
+            </tr>
+            <tr>
+              <td><p>二层</p></td>
+              <td>21</td>
+              <td>7,570<br></td>
+              <td>333</td>
+              <td>12,704</td>
+              <td>0</td>
+              <td>-1,680.52</td>
+            </tr>
+            <tr>
+              <td><p>合计</p></td>
+              <td>75</td>
+              <td>7,570<br></td>
+              <td>555</td>
+              <td>12,704</td>
+              <td>0</td>
+              <td>-1,680.52</td>
+            </tr>
+        </table>
+       </div>
+       <div class="showbox">
+           <div class="nav-wrapper">
+               <div class="nav">
+                   <div class="nav-item" id="J-nav-trigger">
+                       <a href="javascript:;" class="nav-item__link">
+                 统计查询结果
+               </a>
+                   </div>
+                   <div class="nav-item">
+                       <a href="" class="nav-item__link">
+                 下载查询结果
+               </a>
+                   </div>
+               </div>
+               <div class="nav-main" id="J-nav-content">
+                   已转出20笔共100.00元 | 已转入3笔500.00元 单一钱包输/赢10笔共35,000.00元 未结算3笔共180.00元
+               </div>
+           </div>
+       </div>
+       <div class="Page">
+           <div class="PagePre"></div>
+           <ul>
+               <li class="Active">1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+               <li>6</li>
+               <li>7</li>
+               <li>8</li>
+               <li class="drop">...</li>
+               <li>108</li>
+           </ul>
+           <div class="PageInput"> 前往 <input type="number" />頁</div>
+           <div class="PageInput PageBtn">確認</div>
+           <div class="PageNext"></div>
+       </div>
+ </div>
+
+
+</div>
+
+  </div>
+  <div class="LightBoxBg"></div>
+</div>
+<script>
+    ;
+    (function() {
+        var doc = document,
+            trigger = doc.getElementById('J-nav-trigger'),
+            triggerActiveClass = 'nav-item--active',
+            content = doc.getElementById('J-nav-content'),
+            contentActiveClass = 'nav-main--active';
+
+        trigger.onclick = function() {
+            this.className += ' ' + triggerActiveClass;
+            content.className += ' ' + contentActiveClass;
+            this.onclick = null;
+        }
+    })();
+</script>
+</body>
+</html>

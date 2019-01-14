@@ -1,0 +1,584 @@
+        body {
+        font-family: "Microsoft YaHei", "微软雅黑", '黑体', "Arial";
+        background-color: #fff;
+        min-width: inherit;
+        margin: 0;
+        padding: 0;
+    }
+    /*優惠活動內頁18888*/
+    body.ShowAll {
+   display: block !important;
+}
+    .RewardHeader {
+        width: 100%;
+        min-width: 320px;
+        height: 55px;
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .RewardHeaderMain {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .RewardHeaderLogo {
+        width: 110px;
+        height: 25px;
+        background-image: url(../styles/images/logo.png);
+        background-size: cover;
+        text-indent: -9999px;
+        float: left;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .RewardHeaderLogo a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .RewardHeaderMain .Btn {
+        float: right;
+        width: 95px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 12.5px;
+        margin-right: 10px;
+    }
+
+    .RewardfFooter {
+        width: 100%;
+        padding: 20px 0 30px;
+        background-color: #f5f5f5;
+        border-top: 1px solid #dddddd;
+        clear: both;
+    }
+
+    .RewardfFooterMain {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .RewardfFooterMain p.CopyRight {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #666666;
+    }
+
+    .RewardBanner {
+        position: relative;
+        background-image: url(../styles/images/promotion/specalSSC/18888/18888_bg.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        width: 100%;
+        height: 577px;
+        overflow: hidden;
+        margin-bottom:30px;
+    }
+
+    .RewardtTitle .Btn {
+        margin: 0 auto;
+    }
+
+    .RewardArticle {
+      max-width: 1000px;
+      height: auto;
+      overflow: hidden;
+      margin: 0 auto;
+      padding: 35px 0px;
+    }
+
+    .RewardArticle {
+        max-width: 990px;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto 60px;
+        padding: 0 10px;
+    }
+    /*文字+數字*/
+
+    .TitleMain {
+        position: absolute;
+        left: 50%;
+        margin-top: 300px;
+        margin-left: -350px;
+        z-index: 2;
+    }
+
+    .TitleBox {
+        width:390px;
+        height: 150px;
+    }
+
+    .TitleBox h2 {
+        font-size: 44px;
+        color: #fff;
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+        text-shadow: 0px 0px 10px #333, 0px 0px 10px #333, 0px 0px 10px #333;
+        letter-spacing: 5px;
+    }
+
+    .TitleBox p {
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333, 0px 0px 10px #333, 0px 0px 10px #333;
+        letter-spacing: 5px;
+    }
+
+    .TitleBox p span.num {
+        font-size: 55px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333, 0px 0px 10px #333, 0px 0px 10px #333;
+    }
+
+    .s2 {
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #EDEDED;
+    }
+
+    .RewardArticleLR {
+      width: 100%;
+      border-bottom: 1px solid #EDEDED;
+    }
+
+    .RewardArticleLR .hw {
+        font-size: 21px;
+        line-height: 25px;
+        color: #333;
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+
+
+
+    /*紅利條件*/
+
+    .item {
+        margin-bottom: 60px;
+    }
+
+    .item h3 {
+        font-size: 18px;
+        color: #ff9e60;
+        line-height: 35px;
+        font-weight: 800;
+    }
+
+    .item .h3-2 {
+        font-size: 18px;
+        color: #000;
+        line-height: 35px;
+        font-weight: 800;
+    }
+
+    .item ul li {
+        padding: 0;
+    }
+
+    .item li {
+        list-style-type: decimal;
+        margin-left: 1.5em;
+        font-size: 16px;
+        color: #666;
+        line-height: 35px;
+        letter-spacing:2px;
+    }
+
+    .item span {
+        color: #ff8a00;
+    }
+    /*END*/
+    /*共用*/
+
+    .TextCenter {
+        text-align: center;
+    }
+
+    .FloatLeft {
+        float: left;
+    }
+
+    .FloatRight {
+        float: right;
+    }
+
+    .MarginAuto {
+        margin: 0 auto;
+    }
+
+    .MarginBottom20 {
+        margin-bottom: 20px;
+    }
+
+    .Dib {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .Btn {
+        width: 165px;
+        height: 43px;
+        background-color: #ff9300;
+        font-size: 20px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 5px;
+    }
+
+    .Btn a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Btn:hover {
+        background-color: #ff8a00;
+    }
+
+    .Btn a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Btn.Active a {}
+
+    .Btn.Active:hover {
+        background-color: #FF9E00;
+    }
+
+    .Btn.Gray {
+        background-color: #c4c4c4;
+    }
+    /*表格*/
+
+    .TableStyle1 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 80px;
+    }
+
+    .TableStyle1 table {
+        width: 100%;
+        border: 0px solid #dddddd;
+    }
+
+    .TableStyle1 table tr td {
+        border-left: 0px solid #dddddd;
+        border-right: 0px solid #dddddd;
+        border-top: 0px dashed #dddddd;
+        border-bottom: 0px dashed #dddddd;
+        padding: 10px 0;
+        line-height: 22px;
+        text-align: center;
+        text-indent: 20px;
+        letter-spacing: 5px;
+    }
+
+    .TableStyle1.TextCenter table tr td {
+        text-align: center;
+        text-indent: inherit;
+    }
+
+    .TableStyle1 table tr td p {
+        margin-bottom: 0;
+    }
+
+    .TableStyle1 table tr td.Title {
+        color: #fff;
+        background-color: #ff9e00;
+        text-align: center;
+        border: 1px solid #ff9e00;
+        font-weight: bold;
+    }
+
+    .TitleW {
+        width: 55%;
+        /*PC*/
+    }
+
+    .TableStyle1 tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+
+   /*進度條開始*/
+
+    .progressbar-wrap{
+    	padding: 0px 140px;
+    	padding-top: 52px;
+    }
+    .progressbar-wrap .progressbar-inner{
+    	width: 100%;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar{
+    	width: 100%;
+    	height: 18px;
+    	position: relative;
+    	background: #DDDDDD;
+    	border-radius: 9px;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar .round-1{
+    	position: absolute;
+    	top: -6px;
+    	left: 34.9%;
+    	z-index: 3;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar .round-2{
+    	position: absolute;
+    	top: -6px;
+    	left:64.5%;
+    	z-index: 3;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar .round-3{
+    	position: absolute;
+    	top: -6px;
+    	right: 0;
+    	z-index: 3;
+    }
+    .progressbar .round.orange{
+    	background: #FF9E00;
+    }
+    .progressbar .round{
+    	width: 30px;
+    	height: 30px;
+    	background: #DDDDDD;
+    	position: absolute;
+    	margin-left: -15px;
+    	z-index: 3;
+    	border-radius: 15px;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar span{
+    	position: absolute;
+    	display: block;
+    	top: -23px;
+    	width: 100px;
+    	margin-left: -50px;
+    	text-align: center;
+    	font-size: 14px;
+    	color: #FF9E00;
+    }
+    .progressbar-wrap .progressbar-inner .progressbar span.gray{
+    	color: #DDDDDD;
+    }
+    .progressbar .progressbar-orange{
+    	width: 75%;
+    	height: 18px;
+    	background: #FF9E00;
+    	border-radius: 15px 0px 0px 15px;
+    }
+    .progressbar-money{
+    	width: 100%;
+    	margin-top: 6px;
+      text-align: center;
+    }
+    .progressbar-money ul li{
+    	display: inline-block;
+    	width: 29%;
+    	height: 30px;
+    	margin-top: 9px;
+    	text-align: center;
+    	position: relative;
+    }
+    .progressbar-money ul li.line{
+    	border-right: 1px solid #979797;
+    }
+    .progressbar-money ul li .money{
+    	text-align: center;
+    	font-size: 16px;
+    	color: 333333;
+    }
+    .progressbar-money ul li .money.left{
+    	text-align: left;
+    }
+    .progressbar-money ul li .money.right{
+    	text-align: right;
+    	margin-right: -14px;
+    }
+    .progressbar-money ul li .money i{
+    	width: 100%;
+    	display: block;
+    	position: absolute;
+    	color: #666666;
+    	font-size: 14px;
+    	margin-top: 5px;
+    }
+  /*有效投注金額*/
+    .betgroup-wrap{
+    	padding: 0px 80px;
+    	margin-top: 33px;
+      text-align: center;
+    }
+    .betgroup-wrap ul li{
+    	width: 29%;
+    	display: inline-block;
+    	text-align: center;
+    	padding-bottom: 50px;
+      vertical-align: top;
+    }
+    .betgroup-wrap ul li .word h3{
+    	font-size: 16px;
+    	color: #333333;
+    }
+    .betgroup-wrap ul li .word p{
+    	margin-top: 5px;
+    	font-size: 20px;
+    	color: #FF9E00;
+    }
+    .betgroup-wrap ul li .word .btn{
+    	display: inline-block;
+    	margin-top: 25px;
+    	width: 140px;
+    	height: 36px;
+    	background: #FF9E00;
+    	color: #FFF;
+    	font-size: 18px;
+    	line-height: 36px;
+    	border-radius: 5px;
+    	text-decoration: none;
+    	transition: all .4s ease-in;
+    }
+    .betgroup-wrap ul li .word .btn:hover{
+    	background: #ff8a00;
+    	transition: all .4s ease-in;
+    }
+    .betgroup-wrap ul li .word .btn.gray{
+    	background: #D5D5D5;
+    }
+    .betgroup-wrap ul li .word .btn.blue{
+    	background: #3EACE9;
+
+    }
+
+    /*進度條結束*/
+
+    @media screen and (max-width: 960px) {
+    div{
+      box-sizing: border-box;
+
+    }
+
+        .RewardBanner {
+            background-image: url(../styles/images/promotion/specalSSC/18888/18888_bg.jpg);
+            background-position: 50% 50%;
+            z-index: 2;
+        }
+        .RewardBanner img {
+            /*margin-left: -900px;*/
+            display: block;
+            width: 100%;
+            max-width: 100%;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+
+        /*進度條開始*/
+       .progressbar-wrap{
+      		padding: 0px 5%;
+      		padding: 0px 4vw;
+      		padding-top: 50px;
+      	}
+      	.progressbar-wrap .progressbar-inner{
+      		box-sizing: border-box;
+      		padding: 0px 10px;
+      		margin-left: -7.5px;
+      	}
+      	.progressbar-money ul li{
+      		width: 31%;
+      	}
+      	.betgroup-wrap{
+      		padding: 0px 5%;
+      		padding: 0px 2px;
+      	}
+      	.betgroup-wrap ul li .word h3{
+      		font-size: 12px;
+      	}
+      	.betgroup-wrap ul li .word a{
+      		display: block;
+      		padding: 0px 5%;
+      		padding: 0px 4vw;
+      	}
+      	.betgroup-wrap ul li .word .btn{
+      		display: inline-block;
+      		box-sizing: border-box;
+      		width: 90%;
+      		color: #FFF;
+      		font-size: 15px;
+      	}
+  .progressbar-wrap .progressbar-inner .progressbar .round-1 {
+    position: absolute;
+    top: -6px;
+    left: 33.333%;
+    z-index: 3;
+}
+.progressbar-wrap .progressbar-inner .progressbar .round-2 {
+  position: absolute;
+  top: -6px;
+  left: 66%;
+  z-index: 3;
+}
+      	/*進度條結束*/
+    }
+
+    @media screen and (max-width: 640px) {
+        .RewardBanner {
+            height: 250px;
+            background-position: 55% 50%;
+            background-size: cover;
+        }
+        /*文字+數字*/
+        .TitleMain {
+            position: absolute;
+            left: 20%;
+            margin-top: inherit;
+            margin-left: -50px;
+            right: 10px;
+           bottom: 20px;
+            z-index: 2;
+        }
+
+        .TitleBox {
+            width:inherit;
+            height:inherit;
+        }
+        .TitleBox h2 {
+            font-size: 34px;
+
+        }
+        .TitleBox p {
+            font-size: 18px;
+            letter-spacing: 3px;
+        }
+        .TitleBox p span.num {
+            font-size: 34px;
+            letter-spacing: 3px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+    }
+
+
+    @media screen and (max-width: 320px) {
+      .RewardBanner{
+      height: 200px;
+      }
+
+.betgroup-wrap ul li{
+  width: inherit;
+
+}
+    }

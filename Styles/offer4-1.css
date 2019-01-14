@@ -1,0 +1,1019 @@
+    body {
+    font-family: "Microsoft YaHei", "微软雅黑", '黑体', "Arial";
+    background-color: #fffdfb;
+    min-width: inherit;
+}
+        body.ShowAll {
+   display: block !important;
+}
+/*vip首存*/
+
+
+/*優惠活動內頁-1.2.2-*/
+
+.RewardHeader {
+    width: 100%;
+    min-width: 320px;
+    height: 55px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.RewardHeaderMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.RewardHeaderLogo {
+    width: 110px;
+    height: 25px;
+    background-image: url(../styles/images/logo.png);
+    background-size: cover;
+    text-indent: -9999px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.RewardHeaderLogo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.RewardHeaderMain .Btn {
+    float: right;
+    width: 95px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+.RewardfFooter {
+    width: 100%;
+    padding: 20px 0 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dddddd;
+    clear: both;
+}
+
+.RewardfFooterMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.RewardfFooterMain p.CopyRight {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+
+.RewardBanner {
+    position: relative;
+    padding-top: 33.33%;
+    background-image: url(../styles/images/event122/vipFirst.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.RewardBanner img {}
+
+.RewardtTitle {
+    position: absolute;
+    left: 50%;
+    margin-top: 90px;
+    margin-left: -90px;
+    z-index: 2;
+}
+
+.RewardtTitle h2 {
+    font-size: 42px;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.RewardtTitle p {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.RewardtTitle .Btn {
+    margin: 0 auto;
+}
+
+.RewardArticle {
+    max-width: 990px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 60px;
+    padding: 0 10px;
+}
+
+.RewardArticle {
+    max-width: 990px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto 60px;
+    padding: 0 10px;
+}
+
+.s1 {
+    width: 100%;
+    background: #fffdfb;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.s2 {
+    width: 100%;
+    padding-top: 100px;
+    background: #fff;
+}
+
+.RewardArticleLR {
+    width: 100%;
+}
+
+.RewardArticleLR h2 {
+    font-size: 21px;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.RewardArticleLR h2 .GoWewardBtn {
+    background-image: url(../styles/images/event122/goR.jpg);
+    background-size: 100% 100%;
+    width: 104px;
+    height: 29px;
+    /*float: right;*/
+    line-height: 75px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin: -15px 0 0;
+}
+
+.RewardArticleLR .hw {
+    font-size: 21px;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.RewardArticleLR h3 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.RewardArticleLR span {
+    color: #ff9300;
+    padding: 0 2px;
+}
+
+.RewardArticleLR p {
+    font-size: 18px;
+    color: #666666;
+    line-height: 22px;
+    /*margin-bottom: 50px;*/
+    text-align: center;
+}
+
+.RewardArticleLR p a {
+    color: #666666;
+}
+
+.RewardArticleLR ul.List {
+    margin-left: 15px;
+    text-indent: -15px;
+}
+
+.RewardArticleLR ul.List li {
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e4e4e4;
+    margin: 60px 0;
+}
+
+
+/*優惠選單*/
+
+.RewardGiftMain {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.RewardGiftBox {
+    width: 265px;
+    height: auto;
+    padding: 25px 15px;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    background: #fff;
+    margin: 12.5px 10px;
+}
+
+.TextCenterBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    background: ;
+    padding: 5px;
+}
+
+.TextCenterBox .TextMain {
+    float: left;
+    margin-left: 60px;
+    margin-top: -9px;
+}
+
+.RewardGiftBox .TextMain p {
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+    padding-bottom: 5px;
+    line-height: 24px;
+}
+
+.RewardGiftBox .TextMain p span {
+    color: #3eace9;
+    font-weight: bold;
+    margin: 0;
+}
+
+.RewardGiftBox .TextMain h2 {
+    font-size: 28px;
+    color: #666;
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+}
+
+.RewardGiftBox .TextMain h2 span {
+    color: #ff9300;
+    font-weight: bold;
+}
+
+.RewardGiftBox .radioBox {
+    position: absolute;
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    left: 15px;
+}
+
+.radioText {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 3px;
+    background: url(images/event122/radio.png) no-repeat -26px 0;
+}
+
+.radioclass {
+    opacity: 0;
+    cursor: pointer;
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";*/
+    filter: alpha(opacity=0);
+}
+
+.radioText.Active {
+    background-position: 0 0;
+}
+
+
+/*錢筒位子*/
+
+.mbBox {
+    background: url(images/event122/mb.png) no-repeat;
+    width: 192px;
+    height: 243px;
+    position: absolute;
+    margin-top: 120px;
+    margin-right: -10px;
+    animation: mbBoxmove 2.5s infinite;
+    -moz-animation: mbBoxmove 2.5s infinite;
+    /* Firefox */
+    -webkit-animation: mbBoxmove 2.5s infinite;
+    /* Safari and Chrome */
+    -o-animation: mbBoxmove 2.5s infinite;
+    /* Opera */
+    z-index: 999;
+}
+
+@keyframes mbBoxmove {
+    0% {
+        margin-top: 120px;
+    }
+    50% {
+        margin-top: 90px;
+    }
+    100% {
+        margin-top: 120px;
+    }
+}
+
+
+/*紅利流水進度頁*/
+
+.mbBox2 {
+    background: url(images/event122/mb.png) no-repeat;
+    width: 192px;
+    height: 243px;
+    position: absolute;
+    margin-top: 0;
+    margin-left: -40px;
+    animation: mbBoxmove2 2.5s infinite;
+    -moz-animation: mbBoxmove2 2.5s infinite;
+    /* Firefox */
+    -webkit-animation: mbBoxmove2 2.5s infinite;
+    /* Safari and Chrome */
+    -o-animation: mbBoxmove2 2.5s infinite;
+    /* Opera */
+}
+
+@keyframes mbBoxmove2 {
+    0% {
+        margin-top: -40px;
+    }
+    50% {
+        margin-top: -20px;
+    }
+    100% {
+        margin-top: -40px;
+    }
+}
+
+
+/*存款Input*/
+
+.buyBox {
+    background: ;
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+    background-color: ;
+}
+
+.buyL {
+    display: inline-block;
+    background-color: ;
+}
+
+.InputBox.MarginBottom35 {
+    margin-bottom: 55px;
+}
+
+.InputBox {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.InputBox input {
+    width: 215px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    text-indent: 10px;
+}
+
+.MemberPrompt {
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 5px;
+    color: #5e5e5e;
+    background-color: #fff;
+    border: 1px solid #ff8a00;
+    margin-left: 660px;
+    margin-top: -70px;
+    box-shadow: 0px 0px 15px #ff8a00;
+}
+
+.MemberPromptMoble {
+    padding: 10px 0px 10px 80px;
+    color: #5e5e5e;
+    font-size: 14px;
+    display: none;
+}
+
+.MemberPrompt p, .MemberPromptMoble p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.MemberPrompt i {
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    background-image: url("images/event122/arrow.png");
+    top: 25px;
+    left: -12px;
+}
+
+
+/*規則條件*/
+
+.item h3 {
+    font-size: 18px;
+    color: #666;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.item ul li {
+    padding: 0;
+}
+
+.item li {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+    font-size: 16px;
+    color: #666;
+    line-height: 35px;
+}
+
+.item span {
+    color: #ff8a00;
+}
+
+
+/*END*/
+
+
+/*共用*/
+
+.TextCenter {
+    text-align: center;
+}
+
+.FloatLeft {
+    float: left;
+}
+
+.FloatRight {
+    float: right;
+}
+
+.MarginAuto {
+    margin: 0 auto;
+}
+
+.MarginBottom20 {
+    margin-bottom: 20px;
+}
+
+.Dib {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.Btn {
+    width: 165px;
+    height: 43px;
+    background-color: #ff9300;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.Btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Btn:hover {
+    background-color: #ff8a00;
+}
+
+.Btn a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Btn.Active a {}
+
+.Btn.Active:hover {
+    background-color: #FF9E00;
+}
+
+.Btn.Gray {
+    background-color: #c4c4c4;
+}
+
+
+/*表格*/
+
+.TableStyle1 {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.TableStyle1 table {
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+.TableStyle1 table tr td {
+    border-left: 0px solid #dddddd;
+    border-right: 0px solid #dddddd;
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    padding: 10px 0;
+    line-height: 22px;
+    text-align: center;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+.TableStyle1.TextCenter table tr td {
+    text-align: center;
+    text-indent: inherit;
+}
+
+.TableStyle1 table tr td p {
+    margin-bottom: 0;
+}
+
+.TableStyle1 table tr td.Title {
+    color: #fff;
+    background-color: #ff8a00;
+    text-align: center;
+    border: 1px solid #ff8a00;
+}
+
+.TitleW {
+    width: 40%;
+    /*PC*/
+}
+
+.TableStyle1 tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+.RewardPb {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+.RewardPrompt {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    transition: all ease-out .1s;
+}
+
+.RewardPb:hover .RewardPrompt {
+    opacity: 1;
+    bottom: 50px;
+}
+
+
+/*內頁-有效流水*/
+
+.lineP {
+    width: 99%;
+    border-bottom: 1px solid #e4e4e4;
+    margin: 20px 0;
+}
+
+.RewardLgBox {
+    width: 99%;
+    padding: 40px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.RewardLgBox h2 {
+    font-size: 21px;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.RewardLgMain {
+    background: ;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.RewardLgBarTextMain {
+    /*首存紅利文字*/
+    background: ;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.RewardLgBarText {
+    background: ;
+    width: 49%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.RewardLgBarText .ht, .ht2 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.RewardLgBarText .ht .co {
+    font-size: 60px;
+    vertical-align: text-bottom;
+    color: #3eace9;
+}
+
+.RewardLgBarText .ht .dp {
+    font-size: 30px;
+    line-height: 50px;
+    color: #3eace9;
+}
+
+.RewardLgBarText .ht2 .co {
+    font-size: 60px;
+    vertical-align: text-bottom;
+    color: #ff9300;
+}
+
+.RewardLgBarText .ht2 .dp {
+    font-size: 30px;
+    line-height: 50px;
+    color: #ff9300;
+}
+
+
+/*小提醒*/
+
+.menotext {
+    text-align: right;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+.menotext span{
+color: #ff9300;
+}
+
+
+
+.RewardLgBarMain {
+    /*bar*/
+    background: ;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.RewardLgBar {
+    background: ;
+    width: 100%;
+}
+
+.RewardLgBar .alinebox {
+    height: 35px;
+    background-color: #fff0d7;
+    border-radius: ;
+    box-shadow: -4px 4px 2px rgba(235, 221, 198, 0.5) inset;
+}
+
+.RewardLgBar .atext {
+    color: #333;
+    line-height: 60px;
+    margin-left: 50%;
+    margin-top: 5px;
+    float: left;
+    font-size: 14px;
+    font-variant: -10px;
+}
+
+.RewardLgBar .atext p {
+    text-align: center;
+    position: absolute;
+}
+
+.RewardLgBar .alinebg {
+    background: #ff9300;
+    height: 35px;
+    border-radius: ;
+    box-shadow: -1px -4px 2px rgba(229, 132, 0, 0.5) inset;
+}
+
+.alinebgW {
+    width: 60%;
+}
+
+.RewardLgWtMain {
+    background: ;
+    width: 100%;
+    padding: 12px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.RewardLgWt {
+    /*左右框*/
+    width: 32.6%;
+    display: inline-block;
+    vertical-align: text-top;
+    background: #;
+    height: px;
+}
+
+.RewardLgWt .tL {
+    text-align: left;
+    font-size: 24px;
+    color: #666;
+}
+
+.RewardLgWt .tR {
+    text-align: right;
+    font-size: 24px;
+    color: #666;
+}
+
+.RewardLgWt p.tR span {
+    text-align: right;
+    font-size: 16px;
+    color: #666;
+}
+
+.RewardLgWt p.tC {
+    /*中間框*/
+    width: 100%;
+    border-left: 1px #ddd solid;
+    border-right: 1px #ddd solid;
+    height: 57px;
+    font-size: 24px;
+    color: #666;
+}
+
+.RewardLgWt p.tC span {
+    /*中間框*/
+    font-size: 16px;
+    color: #666;
+}
+
+.RewardDate {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.RewardDate p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+@media screen and (max-width: 960px) {
+    .mbBox, .mbBox2 {
+        display: none;
+    }
+    .line {
+        margin: 20px 0;
+    }
+    .MemberPromptMoble {
+        color: #5e5e5e;
+        font-size: 14px;
+        display: block;
+        line-height: 14px;
+    }
+    .RewardBanner {
+        background-image: url(../styles/images/event122/vipFirst.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 49%;
+    }
+    .RewardBanner img {
+        /*margin-left: -900px;*/
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+    .MemberPrompt {
+        display: none;
+    }
+    .MemberPrompt i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .s1 {
+        width: 100%;
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+    .s2 {
+        width: 100%;
+        padding: 40px 10px;
+        box-sizing: border-box;
+    }
+    .RewardBanner {
+        margin-bottom: 20px;
+    }
+    .RewardHeaderMain {
+        width: 100%;
+        margin: inherit;
+    }
+    .RewardArticle {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+    }
+    .RewardArticleLR {
+        text-align: center;
+    }
+    .RewardArticleLR h2 {
+        text-align: left;
+    }
+    .RewardArticleLR p {
+        text-align: left;
+    }
+    .TitleW {
+        width: 30%;
+        /*MOBILE*/
+    }
+
+    .RewardLgBarText .ht .co {
+        line-height: 70px;
+    }
+
+    .RewardLgBarText .ht2 .co {
+        line-height: 70px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+  .RewardLgBox {
+      padding: 10px;
+  }
+
+
+    .RewardLgWtMain {
+        width: 100%;
+        padding:5px 0;
+
+    }
+    .RewardLgBarText {
+      float: none;
+      width: 100%;
+      padding: 5px;
+    }
+
+    .RewardLgBarTextMain {
+        /*首存紅利文字*/
+        padding: 5px;
+
+    }
+    .RewardLgBarMain {
+        /*bar*/
+        width: 100%;
+        padding: 5px 0 ;
+    }
+
+
+    .RewardLgWt {
+        /*左右框*/
+        width: 100%;
+        display:block;
+    }
+
+    .RewardLgWt .tL {
+        text-align: left;
+        border-bottom: 1px #ddd solid;
+      padding: 5px 0;
+      margin-bottom: 7px;
+    }
+
+    .RewardLgWt .tR {
+      text-align:left;
+      border-bottom: 1px #ddd solid;
+          padding: 5px 0;
+    }
+
+
+    .RewardLgWt p.tR span {
+        text-align:left;
+
+    }
+
+    .RewardLgWt p.tC {
+        /*中間框*/
+        width: 100%;
+        border-left: 0px;
+        border-right:0px;
+        border-bottom: 1px #ddd solid;
+    }
+
+    .RewardLgWt p.tC span {
+        /*中間框*/
+        font-size: 16px;
+        color: #666;
+    }
+    .menotext {
+        text-align: right;
+        padding: 0px;
+    }
+
+
+}
+@media screen and (max-width: 480px) {
+    .line {
+        margin: 20px 0;
+    }
+    .RewardGiftBox {
+        padding: 15px;
+        margin: 3px;
+    }
+    .TextCenterBox {
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        background: ;
+        padding: 3px;
+    }
+    .RewardGiftBox .TextMain p {
+        padding-bottom: 1px;
+        line-height: 30px;
+    }
+    .buyBox {
+        margin-top: 20px;
+    }
+    .RewardArticle {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+    .RewardArticleLR {
+        text-align: center;
+    }
+    .RewardArticleLR h2 {
+        text-align: left;
+    }
+    .RewardArticleLR p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .RewardGiftBox {
+        width: 90%;
+        padding: 15px;
+        margin: 3px;
+    }
+    .MemberPromptMoble {
+        padding: 10px 0px 10px 35px;
+    }
+    .TitleW {
+        width: 20%;
+        /*MOBILE*/
+    }

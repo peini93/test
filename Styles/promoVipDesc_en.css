@@ -1,0 +1,76 @@
+.bonus-help .top-title {
+  background-image: url(images/manager/en/title-1.png);
+  width: 613.5px;
+  height: 31px;
+  transform: inherit; }
+
+@media (max-width: 767px) {
+  .bonus-help .top-title {
+    width: 90%; } }
+.deposit-inner .title .title2-1 {
+  background-image: url(images/manager/en/title-2-1.png);
+  width: 389px;
+  height: 27px; }
+
+.deposit-inner .title .title2-2 {
+  background-image: url(images/manager/en/title-2-2.png);
+  width: 396px;
+  height: 27px;
+  margin-left: 10px; }
+
+.deposit-inner .title .title2-3 {
+  background-image: url(images/manager/en/title-2-3.png);
+  width: 417.5px;
+  height: 27px;
+  margin-left: 10px; }
+
+.deposit-inner .title .title2-4 {
+  background-image: url(images/manager/en/title-2-4.png);
+  width: 394px;
+  height: 27px;
+  margin-left: 10px; }
+
+@media (max-width: 767px) {
+  .deposit-inner .title .title2-2 {
+    margin-left: 0px; }
+
+  .deposit-inner .title .title2-3 {
+    margin-left: 0px; }
+
+  .deposit-inner .title .title2-4 {
+    margin-left: 0px; } }
+.vipnorm-inner .title {
+  background-image: url(images/manager/en/title-3.png);
+  width: 471.5px;
+  height: 31.5px;
+  transform: inherit; }
+
+@media (max-width: 767px) {
+  .vipnorm-inner .title {
+    width: 90%; } }
+.VIPexplain-wrap .VIPexplain-title {
+  background-image: url(images/manager/en/title-4.png);
+  width: 242.5px;
+  height: 22px; }
+
+.bonus-slider .bonus-slider-1 table {
+  font-size: 13px;
+  letter-spacing: 1px; }
+
+.bonus-slider .bonus-slider-1 table tr td {
+  padding-bottom: 4px; }
+
+.flexslider .slides li .bonus-slider .bonus-slider-1 {
+  padding-top: 60px; }
+
+.bonus-slider .bonus-slider-1 table {
+  margin-top: 10px; }
+
+.bonus-slider .bonus-slider-1 .title {
+  font-size: 17px; }
+
+.bonus-slider .bonus-slider-1 .bonus-footer {
+  margin-top: 10px; }
+
+.bonus-slider .bonus-slider-1 .bonus-footer p {
+  font-size: 13px; }

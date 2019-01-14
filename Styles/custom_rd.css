@@ -1,0 +1,265 @@
+﻿/* register使用 */
+.H42 {
+    height: 42px;
+}
+
+.tdNowrap {
+    white-space: nowrap;
+}
+
+
+.LightBoxBg {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*z-index: 100;*/
+}
+
+.LightBoxMain {
+    /*z-index: 150;*/
+}
+
+.LightBoxMainTranscation {
+    /*z-index: 150;*/
+}
+
+.timedActive {
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.MT28 {
+    margin-top: 28px;
+}
+
+.HelpCenterSearchOptionActive {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 75px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+    .HelpCenterSearchOptionActive ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+        .HelpCenterSearchOptionActive ul li:hover {
+            background-color: #ffebd3;
+        }
+
+        .HelpCenterSearchOptionActive ul li a {
+            display: block;
+            padding: 5px 20px;
+            color: #666666;
+            text-decoration: none;
+        }
+
+            .HelpCenterSearchOptionActive ul li a span {
+                color: #FF9F00;
+            }
+
+.HelpCenterBar .HelpCenterSearchOptionActive {
+    top: 55px;
+}
+
+.rdCursor {
+    cursor: pointer;
+}
+
+.LightBoxMainTranscation2 {
+    position: fixed;
+    width: 900px;
+    padding: 30px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -480px;
+    top: 50px;
+    z-index: 150;
+}
+
+.PlayGameBar, .VersionGamePlay {
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* The element to apply the animation to */
+.collapse {
+    bottom: -70px;
+}
+
+/* /affiliate/member/dashboard */
+.elmRight .moneylist .mboxstyle2 {
+    /*position: absolute;*/
+    width: 270px;
+    height: 145px;
+    display: none;
+}
+
+    .elmRight .moneylist .mboxstyle2 table {
+        width: 90%;
+        border: 0;
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 3px;
+    }
+
+.mboxstyle2 table td {
+    padding: 2px;
+    text-align: left;
+    padding: 2px;
+    color: #666;
+}
+
+.mboxstyle2 td.mboxName {
+    text-align: right;
+}
+
+.mboxstyle2 td.mboxMoney {
+    text-align: right;
+}
+
+/*朋友分析*/
+.PlanMain-all3 .friend .friendMain .iconBox2 {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.friendMain .iconBox2 .man {
+    display: inline-block;
+    width: 15px;
+    height: 35px;
+    background: url("images/shareplan/icon-man.png") no-repeat;
+}
+
+.friendMain .iconBox2 .woman {
+    display: inline-block;
+    width: 18px;
+    height: 35px;
+    background: url("images/shareplan/icon-woman.png") no-repeat;
+}
+
+
+/* 分享計劃 平台收入分析詳細*/
+.circle2_Asset1, .circle2_Asset2, .circle2_Asset3, .circle2_Asset4, .circle2_Asset5, .circle2_Asset6, .circle2_Asset7, .circle2_Asset8, .circle2_Asset9, .circle2_Asset10, .circle2_Asset11 {
+    width: 8px;
+    height: 8px;
+    border-radius: 99em;
+    display: inline-block;
+    margin: 32px 5px;
+}
+
+.circle2_Asset1 {
+    /*沙巴*/
+    background-color: #2b86d0;
+}
+
+.circle2_Asset2 {
+    /*瑞宝阁*/
+    background-color: #f83a00;
+}
+
+.circle2_Asset3 {
+    /*至尊坊*/
+    background-color: #00a7f4;
+}
+
+.circle2_Asset4 {
+    /*财神馆*/
+    background-color: #fddc16;
+}
+
+.circle2_Asset5 {
+    /*金誉城*/
+    background-color: #f17e0e;
+}
+
+.circle2_Asset6 {
+    /*钻石厅*/
+    background-color: #008c6f;
+}
+
+.circle2_Asset7 {
+    /*吉运楼*/
+    background-color: #6d9924;
+}
+
+.circle2_Asset8 {
+    /*盘龙厅*/
+    background-color: #fcc96c;
+}
+
+.circle2_Asset9 {
+    /*波音厅*/
+    background-color: #8bebff;
+}
+
+.circle2_Asset10 {
+    /*九福殿与PT小游戏<*/
+    background-color: #fb8471;
+}
+
+.circle2_Asset11 {
+    /*主帳戶<*/
+    background-color: #ffa700;
+}
+
+.TableStyle6 tr td a {
+    color: #3eace9;
+    text-decoration: none;
+}
+
+.nodata {
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    background: url("images/shareplan/as-2.png") no-repeat;
+    background-size: 200px;
+}
+
+.platformNodata {
+    width: 300px;
+    height: 300px;
+    margin: 15px auto;
+    background: url("images/shareplan/as-2.png") no-repeat;
+    background-size: 300px;
+}
+
+.Atgebox .bb2 {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+    .Atgebox .bb2 .MemberBtnMain {
+        display: inline-block;
+    }
+
+.deposit-form .choose-wrap li {
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+}
+
+.options-wrap .options-ul {
+    margin-bottom: 15px;
+    height: 35px;
+    display: flex;
+}
+
+ol.flex-control-nav, .flexskv {
+    height: 0px;
+}

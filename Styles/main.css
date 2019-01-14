@@ -1,0 +1,754 @@
+﻿@charset "UTF-8";
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+    body.ShowAll {
+        display: block !important;
+    }
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: Arial,"Lucida Grande","Microsoft Yahei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,"PingFang SC",STHeiti;
+    background-color: #fff;
+    min-width: inherit;
+    color: #333333;
+}
+
+/*優惠活動內頁*/
+/*頁頭*/
+.OfferHeader {
+    width: 100%;
+    min-width: 320px;
+    height: 55px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.OfferHeaderMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.OfferHeaderLogo {
+    width: 110px;
+    height: 25px;
+    background-image: url(../styles/images/logo.png);
+    background-size: 100%;
+    text-indent: -9999px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+    .OfferHeaderLogo a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+.OfferHeaderMain .Btn {
+    float: right;
+    width: 95px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+/*頁尾*/
+.OfferfFooter {
+    width: 100%;
+    padding: 20px 0 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dddddd;
+    clear: both;
+}
+
+.OfferfFooterMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+    .OfferfFooterMain p.CopyRight {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #666666;
+    }
+
+.OfferBanner {
+    position: relative;
+    width: 100%;
+    padding-top: 32.6%;
+    overflow: hidden;
+    background-image: url("images/promotion/recommend/offer-kv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (max-width: 768px) {
+    .OfferBanner {
+        height: 200px;
+    }
+}
+
+.OffertTitle .Btn {
+    margin: 0 auto;
+}
+
+/*共用*/
+.TextCenter {
+    text-align: center;
+}
+
+.FloatLeft {
+    float: left;
+}
+
+.FloatRight {
+    float: right;
+}
+
+.MarginAuto {
+    margin: 0 auto;
+}
+
+.MarginBottom50 {
+    margin-bottom: 50px;
+}
+
+.ClearBoth {
+    clear: both;
+}
+
+.Btn {
+    width: 240px;
+    height: 40px;
+    background-color: #FF9E00;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+    .Btn a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Btn:hover {
+        background-color: #ff8a00;
+    }
+
+    .Btn a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Btn.Active a {
+        opacity: .5;
+    }
+
+    .Btn.Active:hover {
+        background-color: #FF9E00;
+    }
+
+    .Btn.Gray {
+        background-color: #D5D5D5;
+    }
+
+.TableStyle1 {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+    .TableStyle1 table {
+        width: 100%;
+        border: 1px solid #dddddd;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+        .TableStyle1 table tr th {
+            background-color: #fd8a25;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        .TableStyle1 table tr td {
+            border-left: 1px solid #dddddd;
+            border-right: 1px solid #dddddd;
+            padding: 18px 10px;
+            line-height: 22px;
+        }
+
+        .TableStyle1 table tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+    .TableStyle1.TextCenter table tr td {
+        text-align: center;
+        text-indent: inherit;
+    }
+
+    .TableStyle1 table tr td p {
+        margin-bottom: 0;
+    }
+
+    .TableStyle1 table tr td.Title {
+        color: #333333;
+        background-color: #f5f5f5;
+    }
+
+.OfferPb {
+    position: relative;
+}
+
+/*内容*/
+.OfferArticle {
+    max-width: 900px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px 45px;
+}
+
+.OfferTitle {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 15%;
+}
+
+    .OfferTitle h3 {
+        color: #FFF;
+        font-size: 33px;
+        text-shadow: -4.33px 2.5px 4.75px rgba(4, 0, 0, 0.32);
+        letter-spacing: 5px;
+        font-weight: normal;
+        line-height: 45px;
+    }
+
+        .OfferTitle h3 i {
+            font-size: 50px;
+            letter-spacing: 0px;
+            margin-left: 7px;
+            margin-right: 3px;
+        }
+
+    .OfferTitle a {
+        display: block;
+        margin-top: 17px;
+    }
+
+        .OfferTitle a:hover .OfferTitleBtn {
+            background: #ff8a00;
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in;
+        }
+
+.OfferTitleBtn {
+    display: inline-block;
+    width: 189px;
+    height: 38px;
+    background: #FF9C26;
+    line-height: 38px;
+    font-size: 18px;
+    color: #FFF;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    box-shadow: -4px 2px 5px 5px rgba(0, 0, 0, 0.32);
+}
+
+.wrapper-1, .wrapper-2, .wrapper-3, .wrapper-4 {
+    width: 100%;
+    height: auto;
+}
+
+    .wrapper-1 .title-warp, .wrapper-2 .title-warp, .wrapper-3 .title-warp {
+        text-align: center;
+    }
+
+    .wrapper-1 .title, .wrapper-2 .title, .wrapper-3 .title {
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 7px;
+        font-weight: normal;
+        letter-spacing: 3px;
+    }
+
+    .wrapper-1 .title-shadow, .wrapper-2 .title-shadow, .wrapper-3 .title-shadow {
+        display: inline-block;
+        width: 150px;
+        height: 13px;
+        background-image: url(images/promotion/recommend/title-shadow.jpg);
+        background-size: 100%;
+    }
+
+    .wrapper-1 .article {
+        font-size: 14px;
+        color: #707070;
+        letter-spacing: 3px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .wrapper-1 .gift-group {
+        margin-bottom: 60px;
+    }
+
+        .wrapper-1 .gift-group ul {
+            text-align: center;
+        }
+
+            .wrapper-1 .gift-group ul li {
+                display: inline-block;
+                width: 160px;
+                height: 197px;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .wrapper-1 .gift-group .gift01 {
+            background-image: url(images/promotion/recommend/gift01.jpg);
+        }
+
+        .wrapper-1 .gift-group .gift02 {
+            background-image: url(images/promotion/recommend/gift02.jpg);
+        }
+
+        .wrapper-1 .gift-group .gift03 {
+            background-image: url(images/promotion/recommend/gift03.jpg);
+        }
+
+    .wrapper-2 .process-group {
+        width: 100%;
+        height: 95px;
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+
+        .wrapper-2 .process-group ul li {
+            display: inline-block;
+            width: 33.333333%;
+            height: 95px;
+            position: relative;
+            text-align: center;
+            background-color: #FF9C26;
+        }
+
+.process-group ul li .icon-warp {
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    text-align: center;
+    position: absolute;
+    margin-left: -26.5px;
+    margin-top: 10px;
+    background-size: 100%;
+}
+
+    .process-group ul li .icon-warp.icon01 {
+        background-image: url(images/promotion/recommend/icon-y1.png);
+    }
+
+    .process-group ul li .icon-warp.icon02 {
+        background-image: url(images/promotion/recommend/icon-y2.png);
+    }
+
+    .process-group ul li .icon-warp.icon03 {
+        background-image: url(images/promotion/recommend/icon-y3.png);
+    }
+
+.process-group ul li span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.process-group .process01 .arrow, .process-group .process02 .arrow {
+    position: absolute;
+    width: 42px;
+    height: 100%;
+    background-image: url(images/promotion/recommend/arrow-y.png);
+    right: 0px;
+    margin-right: -21px;
+    z-index: 2;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.table-warp {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+    .table-warp .table-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #FF9C26;
+        margin-bottom: 12px;
+    }
+
+    .table-warp .table-txt {
+        font-size: 14px;
+        color: #707070;
+        margin-bottom: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
+    .table-warp table {
+        width: 100%;
+    }
+
+        .table-warp table tr td {
+            width: 50%;
+            text-align: center;
+            padding: 14px;
+            font-size: 15px;
+        }
+
+        .table-warp table .first {
+            background: #F9F9F9;
+        }
+
+            .table-warp table .first td {
+                color: #535353;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+
+        .table-warp table .second td {
+            font-size: 14px;
+            color: #000;
+            letter-spacing: 1px;
+        }
+
+        .table-warp table .first .line {
+            border-right: 1px solid #DDDCDC;
+        }
+
+.wrapper-3 .table-btn-warp {
+    width: 100%;
+    text-align: center;
+}
+
+    .wrapper-3 .table-btn-warp a {
+        display: inline-block;
+        width: 189px;
+        height: 38px;
+        background: #FF9C26;
+        line-height: 38px;
+        font-size: 18px;
+        color: #FFF;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+        border-radius: 5px;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+
+        .wrapper-3 .table-btn-warp a:hover {
+            background: #ff8a00;
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in;
+        }
+
+.wrapper-4 .bonus-title {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 18px;
+    margin-top: 40px;
+}
+
+.wrapper-4 ul {
+    padding-left: 20px;
+}
+
+    .wrapper-4 ul li {
+        text-indent: -21px;
+        margin-bottom: 10px;
+        color: #707070;
+        line-height: 25px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+/* ============================================== */
+/* Widescreen                                     */
+/*                                       1024x768 */
+/* ============================================== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .OfferTitle {
+        bottom: 8%;
+    }
+}
+/* ============================================== */
+/* Widescreen                                     */
+/*                                       1366x768 */
+/* ============================================== */
+/* ============================================== */
+/* Widescreen                                     */
+/*                                       1440x900 */
+/* ============================================== */
+@media screen and (min-width: 900px) and (max-width: 1440px) {
+    .OfferTitle {
+        bottom: 7%;
+    }
+}
+/* ============================================== */
+/* Widescreen                                     */
+/*                                       1280x800 */
+/* ============================================== */
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+    .OfferTitle {
+        bottom: 6%;
+    }
+}
+
+@media (max-width: 767px) {
+    .OfferTitle a {
+        display: none;
+    }
+
+    .OfferTitle {
+        text-align: left;
+        margin-left: 5%;
+        bottom: 10%;
+    }
+
+        .OfferTitle h3 {
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: 3px;
+        }
+
+            .OfferTitle h3 i {
+                font-size: 40px;
+            }
+
+    .wrapper-1 .gift-group ul li {
+        width: 30%;
+    }
+
+    .process-group .process01 .arrow, .process-group .process02 .arrow {
+        position: absolute;
+        width: 21px;
+        height: 100%;
+        background-image: url(images/promotion/recommend/arrow-y.png);
+        right: 0px;
+        margin-right: -10.5px;
+        z-index: 2;
+    }
+
+    .OfferArticle {
+        padding: 10% 5%;
+    }
+
+    .wrapper-1 .article {
+        letter-spacing: 2px;
+        line-height: 25px;
+        text-align: justify;
+        text-justify: inter-ideograph;
+        -ms-text-justify: inter-ideograph;
+        /*IE9*/
+        -moz-text-align-last: justify;
+        /*Firefox*/
+        -webkit-text-align-last: justify;
+        /*Chrome*/
+        margin-bottom: 0;
+    }
+
+    .process-group ul li .icon-warp {
+        width: 30%;
+        height: auto;
+        padding-bottom: 30%;
+        margin-left: -15%;
+        margin-top: 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .process-group ul li span {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .wrapper-1 .gift-group {
+        margin-bottom: 8%;
+    }
+
+    .wrapper-2 .process-group {
+        margin-bottom: 25%;
+    }
+
+    .wrapper-4 ul li {
+        text-align: justify;
+        text-justify: inter-ideograph;
+        -ms-text-justify: inter-ideograph;
+        /*IE9*/
+        -moz-text-align-last: justify;
+        /*Firefox*/
+        -webkit-text-align-last: justify;
+        /*Chrome*/
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    .process-group ul li .icon-warp {
+        width: 25%;
+        height: auto;
+        padding-bottom: 25%;
+        margin-left: -12.5%;
+        margin-top: 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .gift-group {
+        margin-top: 10%;
+    }
+
+    .wrapper-2 .process-group {
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2 / 3), (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40 / 71) {
+    .process-group ul li .icon-warp {
+        width: 40%;
+        height: auto;
+        padding-bottom: 40%;
+        margin-left: -20%;
+        margin-top: 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2 / 3) and (orientation: landscape), (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 40 / 71) and (orientation: landscape) {
+    .process-group ul li .icon-warp {
+        width: 25%;
+        height: auto;
+        padding-bottom: 25%;
+        margin-left: -12.5%;
+        margin-top: 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .gift-group {
+        margin-top: 10%;
+    }
+
+    .wrapper-2 .process-group {
+        margin-bottom: 15%;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    .process-group ul li .icon-warp {
+        width: 30%;
+        height: auto;
+        padding-bottom: 30%;
+        margin-left: -15%;
+        margin-top: 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .process-group ul li span {
+        bottom: 15px;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+    .process-group ul li .icon-warp {
+        width: 22%;
+        height: auto;
+        padding-bottom: 22%;
+        margin-left: -11%;
+        margin-top: 4%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .gift-group {
+        margin-top: 5%;
+    }
+
+    .wrapper-2 .process-group {
+        margin-bottom: 15%;
+    }
+
+    .wrapper-1 .gift-group ul li {
+        width: 20%;
+    }
+}

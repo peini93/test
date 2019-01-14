@@ -1,0 +1,452 @@
+body {
+    background-color: #fff;
+}
+/*優惠活動內頁*/
+.OfferHeader {
+    width: 100%;
+    min-width: 320px;
+    height: 55px;
+    border-bottom: 1px solid #dddddd;
+}
+.OfferHeaderMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.OfferHeaderLogo {
+    width: 110px;
+    height: 25px;
+    background-image:url(../styles/images/logo.png);
+    background-size:cover;
+    text-indent: -9999px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.OfferHeaderLogo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.OfferHeaderMain .Btn {
+    float: right;
+    width:95px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+.OfferBanner {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.OfferBanner img {
+    position: absolute;
+    left: 50%;
+    margin-left: -980px;
+}
+.OffertTitle {
+    position: absolute;
+    left: 50%;
+    margin-top: 90px;
+    margin-left: -90px;
+    z-index: 2;
+}
+.OffertTitle h2 {
+    font-size: 42px;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.OffertTitle p {
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.OffertTitle .Btn {
+    margin: 0 auto;
+}
+.OfferArticle {
+    width: 970px;
+    height: auto;
+    margin: 0 auto 50px;
+    padding: 0 10px;
+}
+.OfferArticleLR {
+    width: 48%;
+}
+.OfferArticleLR h2 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.OfferArticleLR p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+.OfferArticleLR p a {
+    color: #666666;
+}
+.OfferArticleLR ul.List {
+    margin-left: 15px;
+    text-indent: -15px;
+}
+.OfferArticleLR ul.List li {
+     font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+}
+.OfferArticleLR ul.Safety {
+    display: inline-block;
+}
+.OfferArticleLR ul.Safety li {
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.OfferArticleLR ul.Safety li .Icon {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    border-radius: 88px;
+    line-height: 120px;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid #ff9c00;
+    background-color: #ff9c00;
+    margin-bottom: 10px;
+}
+.OfferArticleLR ul.Safety li .Icon i {
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background-image: url("images/icon022.png");
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -15.5px;
+}
+.OfferArticleLR ul.Safety li.Active .Icon.Icon1 i {
+    background-position: 0 -31px;
+}
+.OfferArticleLR ul.Safety li .Icon.Icon2 i {
+    background-position: 0 -62px;
+}
+.OfferArticleLR ul.Safety li.Active .Icon.Icon2 i {
+    background-position: 0 -93px;
+}
+.OfferArticleLR ul.Safety li .Icon.Icon3 i {
+    background-position: 0 -124px;
+}
+.OfferArticleLR ul.Safety li.Active .Icon.Icon3 i {
+    background-position: 0 -155px;
+}
+.OfferArticleLR ul.Safety li.Active .Icon {
+    color: #666666;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
+}
+.OfferArticleLR ul.Safety li p {
+    color: #333333;
+    margin-bottom: 40px;
+}
+.OfferArticleLR ul.Safety li.Active p  {
+    color: #666666;
+}
+/*共用*/
+.FloatLeft {
+    float: left;
+}
+.FloatRight {
+    float: right;
+}
+.MarginAuto {
+    margin: 0 auto;
+}
+.MarginBottom20 {
+    margin-bottom: 20px;
+}
+.Btn {
+    width: 140px;
+    height: 35px;
+    background-color: #FF9E00;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+}
+.Btn a {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.Btn:hover {
+    background-color: #ff8a00;
+}
+.Btn a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.TableStyle1 {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #3eace9;
+}
+.TableStyle1 table {
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+.TableStyle1 table tr td {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: 1px dashed #dddddd;
+    border-bottom: 1px dashed #dddddd;
+    padding: 15px 0;
+    line-height: 22px;
+    text-align: left;
+    text-indent: 20px;
+}
+.TableStyle1.w50 table tr td {
+    width: 50%;
+}
+.TableStyle1.TextCenter table tr td {
+    text-align: center;
+    text-indent: inherit;
+}
+.TableStyle1 table tr td p {
+    margin-bottom: 0;
+}
+.TableStyle1 table tr td.Title {
+    color: #333333;
+    background-color: #f5f5f5;
+}
+/*@media screen and (max-width: 1024px) {
+.OffertTitle h2 {
+    margin-bottom: inherit;
+}
+.OfferArticleLR h2 {
+    margin-bottom: 10px;
+}
+}*/
+@media screen and (max-width: 768px) {
+.OfferBanner img {
+    margin-left: -900px;
+}
+.OfferArticle {
+    box-sizing: border-box;
+    width: 100%;
+    margin:0 0 20px 0;
+ }
+ .OfferArticleLR {
+    text-align: center;
+ }
+ .OfferArticleLR h2 {
+    text-align: left;
+ }
+  .OfferArticleLR p {
+    text-align: left;
+    margin-bottom: 20px;
+ }
+.OfferArticleLR ul.List {
+    text-align: left;
+}
+.OfferArticleLR ul.Safety li {
+    margin:0 5px;
+}
+}
+@media screen and (max-width: 414px) {
+.OffertTitle {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top:inherit;
+    margin-left:0;
+    padding: 0 15px;
+    bottom: 20px;
+}
+.OffertTitle h2 {
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    text-shadow:0 0 10px rgba(0,0,0,.5);
+    margin-bottom: inherit;
+}
+.OffertTitle p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-shadow:0 0 10px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+}
+.OffertTitle .Btn {
+    max-width: 250px;
+}
+.OfferBanner {
+    margin-bottom: 20px;
+}
+.OfferBanner::after {
+    position: absolute;
+    display: block;
+    content:"";
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%,  rgba(0,0,0,.5) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,.5) 100%); 
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%, rgba(0,0,0,.5) 100%); 
+}
+.OfferBanner img {
+    position: absolute;
+    left: 0;
+    margin-left:-550px;
+}
+.OfferArticleLR {
+    width: 100%;
+ }
+ .OfferArticleLR ul.Safety li {
+    margin:0;
+}
+.OfferArticleLR ul.Safety li p {
+    margin-bottom: 20px;
+}
+.FloatLeft {
+    float: none;
+}
+.FloatRight {
+    float: none;
+}
+.Btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+}
+@media screen and (max-width: 320px) {
+.OfferArticleLR ul.Safety li {
+    margin:0;
+}
+}
+@media screen and (orientation:landscape)  and (max-width: 736px) {
+.OfferArticleLR {
+    width: 100%;
+    text-align: center;
+}
+.OfferArticleLR ul.Safety li {
+    margin:0;
+}
+}
+
+/*頁尾*/
+.OfferfFooter {
+    width: 100%;
+    padding: 20px 0 30px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dddddd;
+    clear: both;
+}
+
+.OfferfFooterMain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.OfferfFooterMain p.CopyRight {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+
+.OfferPb {
+    position: relative;
+}
+.OfferPrompt {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    bottom: 40px;
+    transition: all ease-out .1s;
+}
+
+.OfferPb:hover .OfferPrompt {
+    opacity: 1;
+    bottom: 50px;
+}
+.OfferPrompt ul {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    box-shadow:0 0 5px rgba(0,0,0,.2);
+}
+.OfferPrompt:after {
+    position: absolute;
+    content: "";
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f5f5f5 transparent transparent transparent;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.OfferPrompt ul li {
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+}
+.OfferPrompt ul li i {
+    display: inline-block;
+    width:20px;
+    height: 20px; 
+    background-image:url(../styles/images/warning.png);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.OfferPrompt ul li i.Active {
+    background-position: bottom;
+}
+
+@media screen 
+    and (max-device-width : 1366px) 
+{ 
+.OfferPrompt {
+    opacity: 1;
+    position: relative;
+    left:inherit;
+    transform:inherit;
+    bottom:inherit;
+    z-index: 5;
+    padding-top: 20px;
+}
+.OfferPrompt:after {
+    display: none;
+}
+.OfferPb:hover .OfferPrompt {
+    bottom: inherit;
+}
+
+.OfferPrompt ul li {
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    float: left;
+    margin: 0 5px 5px;
+}
+
+}
+
+
+
+

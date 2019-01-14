@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>LETOU乐投-娱乐天天有,因为有乐投</title>
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/li-scroller.css" rel="stylesheet" type="text/css" />
+    <link href="styles/layout.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script>
+    <script type="text/javascript" src="js/mine.js"></script>
+    <script type="text/javascript" src="js/Chart.js"></script>
+</head>
+
+<body>
+    <!--頁首-->
+    <div class="MemberHeader">
+        <div class="MemberHeaderTop">
+            <div class="MemberMain">
+                <div class="MemberLogo1"><a href="#">LETOU乐投</a></div>
+                <div class="MemberListNav">
+                    <ul>
+                        <li><a href="#">早上好 张小明</a></li>
+                        <li>|</li>
+                        <li><a href="#">余额 100,000,000.00</a></li>
+                        <li>|</li>
+                        <li><a href="#">退出登陆</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="MemberBottom">
+            <div class="MemberMain">
+                <div class="MemberNav">
+                    <ul>
+                        <li><a href="#">财富中心</a></li>
+                        <li class="Active"><a href="#">交易纪录</a></li>
+                        <li class="Omoveh">
+                            <div class="OmoveBg">
+                                <div class="Omove"></div>
+                                <h2><span>60</span>%<p>安全指数</p></h2>
+                            </div>
+                            <div class="Omoveiconbox">
+                                <p>张小明 认证状态</p>
+                                <div class="Omoveicon checkok">
+                                    <div class="Omoveicontext icon-name"><i></i>
+                                        <p>已认证</p>
+                                        <div class="tell">实名已认证</div>
+                                    </div>
+                                </div>
+                                <div class="Omoveicon">
+                                    <div class="Omoveicontext icon-phone"><i></i>
+                                        <p class="ph">未认证</p>
+                                        <div class="tell">请尽速认证</div>
+                                    </div>
+
+                                </div>
+                                <div class="Omoveicon">
+                                    <div class="Omoveicontext icon-mail"><i></i>
+                                        <p>未认证</p>
+                                        <div class="tell">请尽速认证</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">帐户管理</a></li>
+                        <li class="Active"><a href="#">分享计划</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--內容-->
+    <div class="PlanContent">
+        <div class="PlanMain-account">
+            <div class="MemberTitle">分享计划</div>
+            <div class="ShareCopy">
+                <p>分享链结：http://ltou88.com/C.aspx?ID=151155</p><span class="SharecopyBtn">复制网址</span>
+            </div>
+            <div class="ShareplanMore FloatRight" style="margin-top:-20px;"><a href="#">邀请好友奖励</a></div>
+
+        </div>
+        <div class="PlanMain-transaction">
+            <h1>交易 <span>（金额单位：人民币）</span></h1>
+            <div class="Cal">
+                <div class="SelectBox FloatLeft">
+                    <div class="Select">
+                        <div class="SelectMain">2016/01/06<i></i></div>
+                        <div class="Option">
+                            <ul>
+                                <li>選項</li>
+                                <li>選項</li>
+                                <li>選項</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ClearBoth"></div>
+                </div>
+                <div class="MemberBtn Active FloatLeft MarginLeft10"><a href="#">查詢</a></div>
+            </div>
+        </div>
+        <div class="PlanMain-all1">
+            <div class="Main">
+                <h1>收入<span>100,000.00</span></h1>
+                <div class="earningsPie">
+                    <div class="earningsPieMain">
+                        <canvas id="myChart" class="zone"></canvas>
+                    </div>
+                </div>
+                <div class="earningslist">
+                    <div class="earningslistMain">
+                        <div class="opbox">
+                            <div class="elmLeft">
+                                <ul>
+                                    <li id="TB1">
+                                        <div class="text">
+                                            <div class="circle_Asset1"></div>
+                                            *1qaz</div>
+                                        <div class="textmoney">40,000.00
+                                            <span class="arw"></span>
+                                        </div>
+                                    </li>
+                                    <li class="Active" id="TB2">
+                                        <div class="text">
+                                            <div class="circle_Asset2"></div>
+                                            *2wsx</div>
+                                        <div class="textmoney">40,000.00
+                                            <span class="arw"></span>
+                                        </div>
+                                    </li>
+                                    <li id="TB3">
+                                        <div class="text">
+                                            <div class="circle_Asset3"></div>
+                                            *3edc</div>
+                                        <div class="textmoney">30,000.00
+                                            <span class="arw"></span>
+                                        </div>
+
+                                    </li>
+                                    <li id="TB4">
+                                        <div class="text">
+                                            <div class="circle_Asset4"></div>
+                                            *4rfv</div>
+                                        <div class="textmoney">22,000.00
+                                            <span class="arw"></span>
+                                        </div>
+                                    </li>
+                                    <li id="TB5">
+                                        <div class="text">
+                                            <div class="circle_Asset5"></div>
+                                            *5tgb</div>
+                                        <div class="textmoney">33,000.00
+                                            <span class="arw"></span>
+                                        </div>
+
+                                    </li>
+                                    <li style="border-bottom:none;" id="TB6">
+                                        <div class="text">
+                                            <div class="circle_Asset1"></div>
+                                            *6yhn</div>
+                                        <div class="textmoney">14,554.55
+                                            <span class="arw"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="elmRight">
+                                <div class="moneylist">
+                                    <div id="MB1" class="mboxstyle" style="display:none;">
+                                        <h3>收入</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">
+                                                    Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="#">查看详情</a></div>
+                                    </div>
+                                    <div id="MB2" class="mboxstyle" style="display:block;">
+                                        <h3>收入2</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="#">查看详情</a></div>
+                                    </div>
+                                    <div id="MB3" class="mboxstyle" style="display:none;">
+                                        <h3>收入3</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="#">查看详情</a></div>
+                                    </div>
+                                    <div id="MB4" class="mboxstyle" style="display:none;">
+                                        <h3>收入4</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="">查看详情</a></div>
+                                    </div>
+                                    <div id="MB5" class="mboxstyle" style="display:none;">
+                                        <h3>收入5</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="#">查看详情</a></div>
+                                    </div>
+                                    <div id="MB6" class="mboxstyle" style="display:none;">
+                                        <h3>收入6</h3>
+                                        <table>
+                                            <tr>
+                                                <td class="mboxName">沙巴体育</td>
+                                                <td class="mboxMoney">222</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">财神馆</td>
+                                                <td class="mboxMoney">222,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">翡翠厅</td>
+                                                <td class="mboxMoney">299,777</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">Playtech游戏</td>
+                                                <td class="mboxMoney">999,111</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="mboxName">彩票</td>
+                                                <td class="mboxMoney">888,577</td>
+                                            </tr>
+                                        </table>
+                                        <div class="ShareplanMore" style="margin-top:10px;"><a href="#">查看详情</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ClearBoth"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="PlanMain-all2">
+            <div class="moneyturn">
+                <div class="moneyturnMain">
+                    <h1>钱来钱往</h1>
+                    <div class="h2box">
+                        <p>代收金額：<span>77,771,456.00</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="detailsMain">
+                    <ul>
+                        <li>
+                            <div class="text">转入</div>
+                            <div class="center">
+                                <p class="money">12,345</p>
+                                <div class="mline">
+                                    <div class="mline1"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">转出</div>
+                            <div class="center">
+                                <p class="money">12,345</p>
+                                <div class="mline">
+                                    <div class="mline2"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">总合计</div>
+                            <div class="center">
+                                <p class="money">12,345</p>
+                                <div class="mline">
+                                    <div class="mline3"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="ShareplanMore"><a href="#">查看详情</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="PlanMain-all3">
+            <div class="Income">
+                <div class="IncomeMain">
+                    <h1>收入分析</h1>
+                    <div class="Incomebox">
+                        <canvas id="myChart3" class="zone"></canvas>
+                    </div>
+                </div>
+
+            </div>
+            <div class="friend">
+                <div class="friendMain">
+                    <h1>朋友分析</h1>
+                    <div class="text">
+                        <p>朋友数 <span>25</span>人</p>
+                        <p>男 <span>68</span>% / 女<span>32</span>%</p>
+                    </div>
+                    <div class="iconBox">
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="man"></div>
+                        <div class="woman"></div>
+                        <div class="woman"></div>
+                        <div class="woman"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="adv">
+                <div class="advMain">
+                    <h1>点击指数</h1>
+                    <div class="icon">
+                        <img src="styles/images/shareplan/icon-click.png" alt="">
+                    </div>
+                    <div class="text">
+                        <p>链结渠道点击数</p>
+                        <p><span>5</span>点击 / 默認渠道</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="PlanMain-all4">
+            <div class="platform">
+                <div class="platformMain">
+                    <h1>平台收入分析</h1>
+                    <div class="listbox">
+                        <ul>
+                            <li>
+                                <div class="pflist">体育</div>
+                                <div class="pftage">
+                                    <div class="text">55%</div>
+                                    <div class="linebox">
+                                        <div class="linebg" style="width:55%"></div>
+                                    </div>
+                                </div>
+                                <div class="pfmoney">6,9900.00</div>
+                            </li>
+                            <li>
+                                <div class="pflist">娱乐场</div>
+                                <div class="pftage">
+                                    <div class="text">10%</div>
+                                    <div class="linebox">
+                                        <div class="linebg" style="width:10%"></div>
+                                    </div>
+                                </div>
+                                <div class="pfmoney">6,9900.00</div>
+                            </li>
+                            <li>
+                                <div class="pflist">电子游戏</div>
+                                <div class="pftage">
+                                    <div class="text">15%</div>
+                                    <div class="linebox">
+                                        <div class="linebg" style="width:15%"></div>
+                                    </div>
+                                </div>
+                                <div class="pfmoney">116,9900.00</div>
+                            </li>
+                            <li style="margin-bottom:20px;">
+                                <div class="pflist">数字游戏</div>
+                                <div class="pftage">
+                                    <div class="text">20%</div>
+                                    <div class="linebox">
+                                        <div class="linebg" style="width:15%"></div>
+                                    </div>
+                                </div>
+                                <div class="pfmoney">6,9900.00</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ShareplanMore"><a href="#">查看详情</a></div>
+                </div>
+                <div class="ClearBoth"></div>
+            </div>
+            <div class="hp">
+                <div class="hpMain">
+                    <h1>成为高级代理人</h1>
+                    <div class="hpBox">
+                        <div class="pi">
+                        <div class="ico1"></div>
+                          <p>全球最优质平台</p>
+                        </div>
+                        <div class="pi">
+                            <div class="ico2"></div>
+                            <p>全天候支援服务</p>
+                        </div>
+                        <div class="pi">
+                            <div class="ico3"></div>
+                            <p>最安全系统</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ShareplanMore"><a href="#">查看详情</a></div>
+            </div>
+        </div>
+        <div class="ClearBoth"></div>
+    </div>
+    </div>
+    <!--頁尾-->
+    <div class="MemberFooter">
+        <div class="MemberMain">
+            <div class="MemberBrand"></div>
+            <div class="MemberLogo2"></div>
+            <p>本网站属于菲律宾卡格杨（Cagayan）授权和监管所有版权归LETOU 所有，违者必究。<br> ©2004-2016 LETOU by WINNER Mayfair LIMITED. RCBC Plaza, 6819 Sen. Gil Puyat corner Ayala Avenue,Makati City,Philippines</p>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            // 總資金用圓餅圖
+            var ctx = document.getElementById("myChart");
+            var myChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ["主帐户", "沙巴体育", "瑞宝阁*"],
+                    datasets: [{
+                        data: [5999, 1999, 300],
+                        backgroundColor: [
+                            '#ffa700',
+                            '#2b86d0',
+                            '#f83a00',
+                        ],
+                        borderColor: [
+                            '#ffa700',
+                            '#2b86d0',
+                            '#f83a00',
+                        ],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    // 隱藏上方label
+                    legend: {
+                        display: false,
+                    },
+                    // 隨DIV縮放
+                    responsive: true,
+                    // maintainAspectRatio: true,
+                    // 動畫增加縮放
+                    animation: {
+                        animateScale: true,
+                    },
+                    // 控制內圓大小
+                    cutoutPercentage: 34.375,
+                },
+            });
+
+        });
+        $(function() {
+            // 總資金用圓餅圖
+            var ctx = document.getElementById("myChart3");
+            var myChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+                    datasets: [{
+                        label: "",
+                        fill: null,
+                        lineTension: 0.1,
+                        backgroundColor: "rgba(220,220,220,0)",
+                        borderColor: "",
+                        borderWidth: 0,
+                        borderCapStyle: 'round',
+                        borderDash: [],
+                        borderDashOffset: 0,
+                        borderJoinStyle: 'miter',
+                        scaleShowGridLines: true,
+                        datasetStrokeWidth: 3,
+                        //點ˋ
+                        pointBorderColor: "rgba(75,192,192,1)",
+                        pointBackgroundColor: "#fff",
+                        pointBorderWidth: 0.5,
+                        pointHoverRadius: 5,
+                        pointHoverBackgroundColor: "rgba(75,192,192,1)",
+                        pointHoverBorderColor: "rgba(220,220,220,1)",
+                        pointHoverBorderWidth: 2,
+                        pointRadius: 3,
+                        pointHitRadius: 12,
+                        data: [65, 59, 80, 81, 56, 55, 40, 56, 55, 40, 11, 50],
+                        spanGaps: false,
+                    }]
+                },
+
+            });
+
+        });
+    </script>
+
+
+
+
+</html>

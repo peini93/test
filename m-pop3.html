@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LETOU乐投-娱乐天天有,因为有乐投</title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="styles/li-scroller.css" rel="stylesheet" type="text/css" />
+<link href="styles/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.li-scroller.1.0.js"></script>
+<script type="text/javascript" src="js/mine.js"></script>
+<script src="js/Chart.js"></script>
+</head>
+<body>
+<!--錯誤訊息提示-->
+
+<div class="LightBox">
+  <div class="LightBoxMainTranscation">
+    <div class="Xbox"><div class="X"></div></div>
+    <div class="MemberRightMain">
+        <h1>平台收入分析</h1>
+        <div class="Member_deposit_l">
+          <div class="box">
+              <canvas id="myChart" class="zone"></canvas>
+          </div>
+
+        </div>
+
+        <div class="Member_deposit_r">
+            <div class="MemberTableBox">
+                 <ul>
+                    <li>
+                        <h2 class="FloatLeft">帐户总额</h2>
+                        <p class="FloatRight">2222</p>
+                    </li>
+                    <li>
+                        <h2 class="FloatLeft">主帐户</h2>
+                        <p class="FloatRight">6666</p>
+                    </li>
+                    <li>
+                        <h2 class="FloatLeft">提款限额</h2>
+                        <p class="FloatRight">55855</p>
+                    </li>
+                    <li>
+                        <h2 class="FloatLeft">可提资金</h2>
+                        <p class="FloatRight">5555</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="ClearBoth"></div>
+        <!--<div class="MemberTableBox">
+            <ul>
+                <li>
+                    <h2 class="FloatLeft">主帳戶</h2>
+                    <p class="FloatRight"><a href="#">20000</a></p>
+                </li>
+            </ul>
+            <div class="ClearBoth"></div>
+        </div>-->
+        <h1>资产分布</h1>
+        <div class="Member_deposit_l">
+            <div class="MemberTableBox">
+                <ul>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset1"></div>
+                        </div>
+                        <h2 class="FloatLeft">沙巴体育</h2>
+                        <p class="FloatRight">200</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset2"></div>
+                        </div>
+                        <h2 class="FloatLeft">瑞宝阁</h2>
+                        <p class="FloatRight">200</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset3"></div>
+                        </div>
+                        <h2 class="FloatLeft">至尊坊</h2>
+                        <p class="FloatRight">5000000</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset4"></div>
+                        </div>
+                        <h2 class="FloatLeft">财神馆</h2>
+                        <p class="FloatRight">300000</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset5"></div>
+                        </div>
+                        <h2 class="FloatLeft">金誉城</h2>
+                        <p class="FloatRight">50000</p>
+                    </li>
+                </ul>
+                <div class="ClearBoth"></div>
+            </div>
+        </div>
+        <div class="Member_deposit_r">
+            <div class="MemberTableBox">
+                 <ul>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset6"></div>
+                        </div>
+                        <h2 class="FloatLeft">钻石厅</h2>
+                        <p class="FloatRight">550000</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset7"></div>
+                        </div>
+                        <h2 class="FloatLeft">吉运楼</h2>
+                        <p class="FloatRight">455555</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset8"></div>
+                        </div>
+                        <h2 class="FloatLeft">盘龙厅</h2>
+                        <p class="FloatRight">99999</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset9"></div>
+                        </div>
+                        <h2 class="FloatLeft">波音厅</h2>
+                        <p class="FloatRight">8888</p>
+                    </li>
+                    <li>
+                        <div class="FloatLeft">
+                            <div class="circle_Asset10"></div>
+                        </div>
+                        <h2 class="FloatLeft">九福殿与PT小游戏</h2>
+                        <p class="FloatRight">222222222</p>
+                    </li>
+                </ul>
+                <div class="ClearBoth"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="ClearBoth"></div>
+    <div class="MemberWarning">
+        <p><i></i><span>GAMES OS小游戏、QT小遊戲、BS小遊戲、数字游戏、体育投注无需转帐，投注金额从主帐户中扣取。</span></p>
+    </div>
+    <div class="ClearBoth"></div>
+
+  </div>
+  <div class="LightBoxBg"></div>
+</div>
+<script>
+$(function(){
+
+    // 總資金用圓餅圖
+    var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ["主帐户", "沙巴体育"," 瑞宝阁"],
+                datasets: [{
+                    data: [5999, 1999, 300],
+                    backgroundColor: [
+                        '#ffa700',
+                        '#2b86d0',
+                        '#f83a00',
+                    ],
+                    borderColor: [
+                      '#ffa700',
+                      '#2b86d0',
+                      '#f83a00',
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                // 隱藏上方label
+                legend: {
+                    display: false,
+                 },
+                // 隨DIV縮放
+                responsive: true,
+                // maintainAspectRatio: true,
+                // 動畫增加縮放
+                animation:{
+                    animateScale: true,
+                },
+                // 控制內圓大小
+                cutoutPercentage: 34.375,
+            },
+        });
+
+});
+</script>
+</body>
+</html>
